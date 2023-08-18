@@ -52,5 +52,5 @@ Output:
 
    
 
-[View a video explanation here](video link)
-[readme.md](https://github.com/csongfm/Fruit-recognition/files/12383340/readme.md)
+[View a video explanation here](https://youtu.be/FDTEDqGOsCo)
+
