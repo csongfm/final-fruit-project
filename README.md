@@ -15,8 +15,12 @@ to output the results of the test images.
 
 ## Running this project
 
-1. Add steps for running this project.
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1. Download or make sure u have resnet-18 downloaded on your jetson nano.
+2. Download all the files in the github
+3. Open the fruits-data file on your device, and then drag-and-drop it into the data folder in jetson-inference/python/training/classification/data
+4. Change directories back to jetson-inference, and run the command "./docker/run.sh" to navigate into the docker container
+5. In the docker, change directories into jetson-inference/python/training/classification
+6. Then, to train, run the command "python3 train.py--model-dir=models/fruits data/fruits-data"
 
 [View a video explanation here](video link)
 [readme.md](https://github.com/csongfm/Fruit-recognition/files/12383340/readme.md)
