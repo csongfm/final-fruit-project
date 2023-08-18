@@ -44,7 +44,9 @@ Output:
    Class #1: Banana, 
    Class #2: Grape, 
    Class #3: Mango, 
-   Class #4: Strawberry, 
+   Class #4: Strawberry,
+
+  ![Classes](https://i.imgur.com/jWq6Mv5.png) 
 
 
    
