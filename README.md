@@ -36,10 +36,11 @@ Export:
 
 Output:
 1. Now that your model is exported successfully, you can try some test images.
-2. Use the command "imagenet.py --model=models/fruits-model/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/fruits-data/labels.txt data/fruits-data/test/Apple/Apple12.png" to test an image of an apple
-3. You can replace the name of the test image at the end of the command to try out different fruits, too.
-4. After running the command, the image will be saved on your computer, and there will be a label of what the model has classified the image as.
-5. For this project, the labels are as follows:
+2. Make sure you are in your project folder (final-fruit-project)
+3. Use the command "python3 fruits.py fruits-data/test/Apple/Apple12.png" to test an image of an apple.
+4. You can replace the path of the test image at the end of the command to try out different fruits, too.
+5. There will be an output that shows you the classification as well as confidence level. 
+6. For this project, the labels are as follows:
    Class #0: Apple, 
    Class #1: Banana, 
    Class #2: Grape, 
