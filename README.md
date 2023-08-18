@@ -3,7 +3,7 @@
  This project is a retrained model of Resnet-18, and it is trained so it can better identify 5 different fruits, which are apples, bananas, mangoes, grapes, and strawberries. The model is able to classify an image of one of these fruits into it's correct class after successful training. 
  
 
-![add image descrition here](direct image link here)
+![Image of the machine classifying an image of an apple correctly:]([Imgur](https://i.imgur.com/jWq6Mv5.png))
 
 ## The Algorithm
 
