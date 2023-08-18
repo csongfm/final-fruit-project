@@ -15,12 +15,28 @@ to output the results of the test images.
 
 ## Running this project
 
+Set-up and training:
 1. Download or make sure u have resnet-18 downloaded on your jetson nano.
 2. Download all the files in the github
 3. Open the fruits-data file on your device, and then drag-and-drop it into the data folder in jetson-inference/python/training/classification/data
 4. Change directories back to jetson-inference, and run the command "./docker/run.sh" to navigate into the docker container
 5. In the docker, change directories into jetson-inference/python/training/classification
 6. Then, to train, run the command "python3 train.py--model-dir=models/fruits data/fruits-data"
+7. Train for at least 20 epochs, but the more, the better.
+
+Export:
+1. When finished training, make sure you are in jetson-inference/python/training/classification
+2. Run the command: python3 onnx_export.py --model-dir=models/fruits-model.
+3. In your model folder, there should be an item named resnet18.onnx. This is your retrained model.
+
+Output:
+1. Now that your model is exported successfully, you can try some test images.
+2. Use the command "imagenet.py --model=models/fruits-model/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/fruits-data/labels.txt data/fruits-data/test/Apple/Apple12.png" to test an image of an apple
+3. You can replace the name of the test image at the end of the command to try out different fruits, too.
+4. After running the command, the image will be saved on your computer, and there will be a label of what the model has classified the image as. 
+
+
+   
 
 [View a video explanation here](video link)
 [readme.md](https://github.com/csongfm/Fruit-recognition/files/12383340/readme.md)
