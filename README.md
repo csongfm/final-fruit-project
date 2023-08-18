@@ -37,11 +37,11 @@ Output:
 3. You can replace the name of the test image at the end of the command to try out different fruits, too.
 4. After running the command, the image will be saved on your computer, and there will be a label of what the model has classified the image as.
 5. For this project, the labels are as follows:
-   Class #0: Apple
-   Class #1: Banana
-   Class #2: Grape
-   Class #3: Mango
-   Class #4: Strawberry
+   Class #0: Apple, 
+   Class #1: Banana, 
+   Class #2: Grape, 
+   Class #3: Mango, 
+   Class #4: Strawberry, 
 
 
    
