@@ -31,6 +31,9 @@ Export:
 2. Run the command: python3 onnx_export.py --model-dir=models/fruits-model.
 3. In your model folder, there should be an item named resnet18.onnx. This is your retrained model.
 
+   ![Image of successful export](https://i.imgur.com/kHib88H.png)
+   
+
 Output:
 1. Now that your model is exported successfully, you can try some test images.
 2. Use the command "imagenet.py --model=models/fruits-model/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=data/fruits-data/labels.txt data/fruits-data/test/Apple/Apple12.png" to test an image of an apple
