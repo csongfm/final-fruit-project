@@ -46,7 +46,7 @@ Output:
    Class #3: Mango, 
    Class #4: Strawberry,
 
-  ![Classes](https://i.imgur.com/jWq6Mv5.png) 
+  ![Classes](https://i.imgur.com/ng0vUTc.png) 
 
 
    
